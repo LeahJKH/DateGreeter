@@ -1,0 +1,14 @@
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\bin\Debug\net9.0\DateGreeter.exe
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\bin\Debug\net9.0\DateGreeter.deps.json
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\bin\Debug\net9.0\DateGreeter.runtimeconfig.json
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\bin\Debug\net9.0\DateGreeter.dll
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\bin\Debug\net9.0\DateGreeter.pdb
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.AssemblyInfoInputs.cache
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.AssemblyInfo.cs
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.csproj.CoreCompileInputs.cache
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.dll
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\refint\DateGreeter.dll
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.pdb
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.genruntimeconfig.cache
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\ref\DateGreeter.dll
