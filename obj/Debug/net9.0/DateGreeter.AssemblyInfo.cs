@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DateGreeter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85130a908767fad40fe61a91928c6e1f5d421e9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DateGreeter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DateGreeter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
