@@ -12,3 +12,4 @@ C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\refint\DateGre
 C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.pdb
 C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.genruntimeconfig.cache
 C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\ref\DateGreeter.dll
+C:\Users\leahj\Documents\code\CSharp\DateGreeter\obj\Debug\net9.0\DateGreeter.sourcelink.json

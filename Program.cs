@@ -4,41 +4,51 @@ class Program
 {
     static void Main(string[] args)
     {
-        string YourName = NameMaker();
-        
-        if (YourName != "") {
+        string YourName;
+
+
+        while (true)
+        {
+            YourName = NameMaker();
+
+            if (!string.IsNullOrWhiteSpace(YourName))  
+            {
+                break; 
+            }
+
+            Console.WriteLine("Error! You did not insert a valid name! Try again :3 (your string is empty :( please fill out)");
+        }
+
         int dateCheck = DateTime.Now.Hour;
         string greetify = Checker(dateCheck, YourName);
         Console.WriteLine(greetify);
-        } 
-
     }
+
     private static string NameMaker()
     {
         Console.Write("Please insert your name: ");
-        string? nameInput = Convert.ToString(Console.ReadLine());
-        return nameInput;
+        string? nameInput = Console.ReadLine();
+        return nameInput ?? "";  
     }
 
     private static string Checker(int numberToBeChecked, string YourName)
     {
-        if (numberToBeChecked >= 0 && numberToBeChecked < 5)
+        var greetings = new Dictionary<Func<int, bool>, string>
         {
-            return $"Good night {YourName}. zzzz";
-        }
-        if (numberToBeChecked >= 5 && numberToBeChecked < 12)
+            { time => time >= 0 && time < 5, $"Good night {YourName}. zzzz" },
+            { time => time >= 5 && time < 12, $"{YourName}! Good morning!" },
+            { time => time >= 12 && time < 18, $"Good afternoon! {YourName}" },
+            { time => time >= 18 && time <= 23, $"Good evening~ {YourName}" }
+        };
+
+        foreach (var entry in greetings)
         {
-            return $"{YourName}! Good morning!";
+            if (entry.Key(numberToBeChecked))
+            {
+                return entry.Value;
+            }
         }
-        if (numberToBeChecked >= 12 && numberToBeChecked < 18)
-        {
-            return $"Good afternoon! {YourName}";
-        }
-        if (numberToBeChecked >= 18 && numberToBeChecked <= 23)
-        {
-            return $"Good evening~ {YourName}";
-        }
-        
-        return $"{YourName}! You are in a time that doesnt exist! Quick leave limbo!"; 
+
+        return $"{YourName}! You are in a time that doesn't exist! Quick leave limbo!";
     }
 }
